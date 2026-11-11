@@ -6,6 +6,18 @@ App pessoal de organização para celular. Junta num só lugar tarefas, agenda, 
 
 **[Abrir o app](https://lauropimentel24-gb.github.io/kairos/)**
 
+<p align="center">
+  <img src="docs/demo.gif" alt="Kairós em uso: abertura animada e principais telas" width="280">
+</p>
+
+## Telas
+
+| Abertura | Início | Tarefas | Hábitos | Estudos |
+|:---:|:---:|:---:|:---:|:---:|
+| <img src="docs/splash.png" width="160" alt="Tela de abertura"> | <img src="docs/home.png" width="160" alt="Tela inicial"> | <img src="docs/tasks.png" width="160" alt="Tarefas"> | <img src="docs/habitos.png" width="160" alt="Hábitos"> | <img src="docs/estudos.png" width="160" alt="Estudos"> |
+
+*Imagens com dados de exemplo.*
+
 ## Funcionalidades
 
 - **Hoje:** checklist do dia, próximo compromisso, top 3 tarefas sugeridas e hábitos do dia.

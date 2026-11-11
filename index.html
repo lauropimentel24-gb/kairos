@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR"><head><meta charset="utf-8"><title>Kairós - Lauro</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Marcellus&display=swap">
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Kairós - Lauro</title><link rel="manifest" href="manifest.webmanifest"><link rel="icon" type="image/png" href="icon-192.png"><link rel="apple-touch-icon" href="apple-touch-icon.png"><meta name="apple-mobile-web-app-title" content="Kairós"><meta name="description" content="Kairós: tarefas, agenda, rotina, estudos, hábitos e metas no celular."><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Marcellus&display=swap">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes"><meta name="theme-color" content="#07070a"><meta name="author" content="Lauro Pimentel"><script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <style>
@@ -449,4 +449,4 @@ const CC2=()=>{const cs=getComputedStyle(document.documentElement);return['--ac'
 const add=(x,y,C,n,v0,v1,up,gv,ft)=>{for(let i=0;i<n;i++){const a=Math.random()*6.283,v=v0+Math.random()*v1,L=.7+Math.random()*.6;brs.push({x,y,vx:Math.cos(a)*v,vy:Math.sin(a)*v-up,l:L,L,c:C[i%C.length],s:ft?5+Math.random()*4:4+Math.random()*5,a:Math.random()*6,w:(Math.random()-.5)*(ft?6:14),sq:Math.random()<.4,gv,ft})}};
 return{burst(x,y){add(x,y,CC2(),26,140,260,180,520,0);rip.push({x,y,t:0})},puff(x,y){add(x,y,['#ad8760','#f0e2c6','#7f6449','#c9a77d'],12,60,120,90,140,1)}}})();
 boot();
-</script></body></html>
+</script><script>if('serviceWorker' in navigator&&location.protocol==='https:')addEventListener('load',()=>navigator.serviceWorker.register('service-worker.js').catch(()=>{}))</script></body></html>

@@ -22,7 +22,9 @@ App pessoal de organização para celular. Junta num só lugar tarefas, agenda, 
 
 ## Tecnologias
 
-HTML, CSS e JavaScript puros, num único arquivo, sem framework e sem etapa de build. PDF gerado com [jsPDF](https://github.com/parallax/jsPDF).
+HTML, CSS e JavaScript puros, sem framework e sem etapa de build. Todo o app, incluindo as animações (CSS e canvas), está no `index.html`. PDF gerado com [jsPDF](https://github.com/parallax/jsPDF).
+
+É um **PWA**: `manifest.webmanifest` e os ícones permitem instalar na tela inicial como app, e o `service-worker.js` guarda uma cópia para abrir mesmo sem internet.
 
 ## Seus dados
 
@@ -37,7 +39,7 @@ Tudo fica salvo no `localStorage` do navegador do aparelho. Nada é enviado para
 2. Adicione à tela inicial. **iPhone:** Safari, depois Compartilhar e *Adicionar à Tela de Início*. **Android:** Chrome, depois menu e *Adicionar à tela inicial*.
 3. Diga seu nome e siga o tour com a Glau.
 
-Para rodar localmente, baixe o `index.html` e abra no navegador.
+Para rodar localmente, clone o repositório e rode `python -m http.server 8000` na pasta. Abrir o `index.html` direto também funciona, mas sem instalação e sem modo offline.
 
 ## Autor
 
